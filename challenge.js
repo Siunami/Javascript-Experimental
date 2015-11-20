@@ -1,6 +1,7 @@
-/*
+
 for (var line = "#"; line.length<8; line += "#")
   console.log(line);
+/*
 #
 ##
 ###
@@ -9,7 +10,7 @@ for (var line = "#"; line.length<8; line += "#")
 ######
 #######
 */
-/*for (number=1; number<101; number++){
+for (number=1; number<101; number++){
   if(number % 3 == 0 && number % 5 != 0){
     console.log(number + "Fizz");
   }else if (number % 5 == 0 && number % 3 != 0){
@@ -20,9 +21,9 @@ for (var line = "#"; line.length<8; line += "#")
     console.log(number);
   }
 }
-The FizzBuzz Challenge*/
+/*The FizzBuzz Challenge*/
 
-/*size = 8;
+size = 8;
 board = "";
 for(var y = 0; y<size; y++){
   for(var x = 0; x<size; x++){
@@ -35,7 +36,7 @@ for(var y = 0; y<size; y++){
 }
 console.log(board);
 
-Chessboard pattern*/
+/*Chessboard pattern*/
 
 
 function greet(who) { 
