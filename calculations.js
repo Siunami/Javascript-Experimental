@@ -27,3 +27,8 @@ function multiply() {
     Multiply.innerHTML = "Your number is " + (three * four);
 }
 
+function flip() {
+  var array = [];
+
+
+}

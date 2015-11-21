@@ -39,8 +39,21 @@ console.log(board);
 /*Chessboard pattern*/
 
 
-function greet(who) { 
+function greet(who) {
     console.log("Hello " + who);
 }
-greet("Harry"); 
+greet("Harry");
 console.log("Bye");
+
+/*Need to fix this
+  Prints one less time than needed.
+  Problem likely in the 2nd for loop
+*/
+var size = function(size){
+  for(size; size>0; size--){
+      for(var x = "#"; (x.length) ; x += "#"){
+        console.log(x);
+    }
+  }
+}
+size(3);
